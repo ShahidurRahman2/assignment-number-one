@@ -57,6 +57,8 @@ main{
 .developement-container{
  width: 946px;
  line-height: 30px;
+ height: 1100px;
+ 
  
 }
 .sub-container{
@@ -103,7 +105,7 @@ main{
 .inspiretion-container{
     margin-top: 60px;
     width: 1140px;
-    border: 2px solid #9a9292 ;
+    border: 2px solid hsl(0, 18%, 91%) ;
     border-radius: 10px;
     height: 600px;
 }
@@ -113,6 +115,9 @@ main{
    text-align: center;
     width: 1140px;  
     height: 480px;
+}
+.target{
+    margin-top: 50px;
 }
 .videos{
     margin-left: 100px;
@@ -138,12 +143,14 @@ main{
     color: #fff;
     margin-bottom: 100px;
     background-size: cover;
+    border-radius: 5px;
 }
-.support-container{
-    margin-left: 400px;
-    margin-top: 170px;
-    line-height: 15px;
-    letter-spacing: 2px;
+.support-contain{
+   text-align: center;
+   padding-top: 200px;
+}
+.support-contain h1,p,input, button{
+margin-top: 30px;
 }
 input{
     padding: 10px;
