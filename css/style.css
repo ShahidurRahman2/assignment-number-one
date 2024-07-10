@@ -187,6 +187,9 @@ input{
     border-radius: 6px;
     margin-left: 50px;
 }
+.btn-submit:hover{
+    background-color: aqua;
+}
 .btnn{
     background-color: #F7F8F8;
     color: black;
