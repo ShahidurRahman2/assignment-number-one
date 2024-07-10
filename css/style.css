@@ -57,7 +57,7 @@ main{
 .developement-container{
  width: 946px;
  line-height: 30px;
- border: 2px solid red;
+ 
 }
 .sub-container{
     margin-top: 100px;
@@ -75,6 +75,7 @@ main{
 .btn-learn{
     margin-top: 40px;
     margin-left: 50px;
+    padding: 10px;
 }
 .a1{
  width: 65%;
@@ -102,21 +103,69 @@ main{
 .inspiretion-container{
     margin-top: 60px;
     width: 1140px;
-    border: 1px solid #ece5e5 ;
-    border-radius: 5px;
+    border: 2px solid #9a9292 ;
+    border-radius: 10px;
+    height: 600px;
+}
+
+.target-container{
+   margin-top: 100px;
+   text-align: center;
+    width: 1140px;  
+    height: 480px;
 }
 .videos{
-    margin-left: 30px;
+    margin-left: 100px;
     margin-top: 50px;
 }
-.target-container{
-    margin-top: 50px;
+.target-title{
+    margin-top: 20px;
+}
+.hcj{
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    border: 2px solid firebrick;
+  line-height: 30px;
+   justify-content: start;
+   margin-top: 50px;
+}
+.css,.html,.javascript{
+    width: 30%;
+}
+.section4{
+    margin-top: 100px;
+    width: 1140px;
+    height: 400px;
+    background-image: url(../assets/handshake.jpg);
+    color: #fff;
+    margin-bottom: 100px;
+    background-size: cover;
+}
+.support-container{
+    margin-left: 400px;
+    margin-top: 170px;
+    line-height: 15px;
+    letter-spacing: 2px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.btn-submit{
+    padding:10px;
+    border-radius: 6px;
+}
+.lrn{
+    padding: 5px;
+    margin-top: 50px;
 }
 footer{
     max-width: 1440px;
     background-color: #F7F8F8;
+    display: flex;
+    height: 100px;
+}
+    
+    
+.icons img{
+    margin-right: 10px;
 }
